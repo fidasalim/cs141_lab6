@@ -14,8 +14,8 @@ void func1(int &unitCst,int &units,int &taxRt){
 
 //function receives cost of the single unit,no of units, and tax rate and returns to the calling module the sales Tax and total cost.
 void func2(int unitCst,int units, int taxRt, int &salesTx ,int &totdue){
-	salesTx = (unitCst*taxRt/100);
-	totdue = units*(unitCst+slaesTx);
+	salesTx = (units*unitCst*taxRt/100);
+	totdue = units*unitCst + salesTx;
 } 
 
 //function receives cost of the single unit,no of units,tax rate ,the sales Tax and total cost and outputs in readable format
