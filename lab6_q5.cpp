@@ -26,7 +26,9 @@ int main(){int p,q,input;
 	cout<< "Let the numbers be : ";
 	cin>>p>>q;
 	//ask the user for the operation
-	cout<<"Which operation do you want?"<<endl<<"For sum:type 1"<<endl<<"For maximum between the two numbers: type 2"<<endl<<"For minimum between the two numbers: type 3"<<endl;
+	cout<<"Which operation do you want?"<<endl
+		<<"For sum:type 1"<<endl<<"For maximum between the two numbers: type 2"
+		<<endl<<"For minimum between the two numbers: type 3"<<endl;
 	cin>>input;
 	// tell user the minimum
 	cout<<"The minimum among the numbers "<<p<< " and " << q <<" is "<<
